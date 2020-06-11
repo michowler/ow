@@ -13,5 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HomeController@index')->name('landingPage');
-
+Route::get('/', 'HomeController@index');
+Route::get('/phpquicktest', 'HomeController@phpQuickTest')->name('phpquicktest');
+// Route::get('/subjects', 'SubjectController@index')->name('mySubjects');
+Route::post('/subject/store', 'SubjectController@store')->name('storeSubject');
+Route::get('/subject/create', 'SubjectController@create')->name('createSubject');

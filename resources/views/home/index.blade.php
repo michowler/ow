@@ -1,4 +1,5 @@
 @extends('layout.main_layout')
+@include('home.partials.header')
 @section('content')
 <section>
   <div class="container">

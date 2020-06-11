@@ -10,4 +10,9 @@ class HomeController extends Controller
 	{				
 		return view('home.index');  		
 	}
+
+	public function phpQuickTest()
+	{				
+		return view('home.phpQuickTest');  		
+	}
 }

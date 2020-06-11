@@ -3,7 +3,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Tech Interview Mentors</title>
+<title>One Page Wonder</title>
 
 <!-- Bootstrap core CSS -->
 <link href="{{asset('assets')}}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
